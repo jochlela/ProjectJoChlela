@@ -1,0 +1,86 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+}
+#LBlogo
+{
+   border: 0px #000000 solid;
+   position:absolute;
+   left:598px;
+   top:167px;
+   width:105px;
+   height:105px;
+   z-index:1;
+}
+#copyright 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   text-align: left;
+}
+#copyright div
+{
+   text-align: left;
+}
+#Tab
+{
+   text-align: left;
+   float: left;
+   margin: 0;
+   width: 100%;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   border-bottom: 1px solid #B22222;
+   list-style-type: none;
+   padding: 15px 0px 4px 10px;
+   overflow: hidden;
+}
+#Tab li
+{
+   float: left;
+}
+#Tab li a.active, #Tab li a:hover.active
+{
+   background-color: #B22222;
+   color: #FFFFFF;
+   position: relative;
+   font-weight: bold;
+   text-decoration: none;
+   z-index: 2;
+}
+#Tab li a
+{
+   padding: 5px 14px 8px 14px;
+   border: 1px solid #B22222;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   background-color: #B22222;
+   color: #FFFFFF;
+   margin-right: 5px;
+   text-decoration: none;
+   border-bottom: none;
+   position: relative;
+   top: 0;
+   -webkit-transition: 200ms all linear;
+   -moz-transition: 200ms all linear;
+   -ms-transition: 200ms all linear;
+   transition: 200ms all linear;
+}
+#Tab li a:hover
+{
+   background: #B22222;
+   color: #FFFFFF;
+   font-weight: bold;
+   text-decoration: none;
+   top: -4px;
+}
+#PageFooter
+{
+   background-color: #FFFFFF;
+}
